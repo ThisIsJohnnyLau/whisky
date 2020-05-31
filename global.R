@@ -1,0 +1,6 @@
+library(tidyverse)
+library(shiny)
+library(CodeClanData)
+library(janitor)
+library(modelr)
+library(GGally)
