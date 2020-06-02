@@ -1,6 +1,8 @@
 
 ```{r}
 
+?whisky
+
 flavours <- tidy_whisky %>%
     distinct(flavour)
 
@@ -10,9 +12,7 @@ delicate<- c("Floral", "Fruity")
 rich <- c("Body", "Sweetness", "Nutty", "Malty")
 light <- c("Winey","Honey", "Spicy")
 
-# whisky_profiles <-
-  
-  tidy_whisky %>%
+whisky_profiles <- tidy_whisky %>%
   filter(headline == "Distillery") %>% 
 # summarise(average = mean(strength)) %>% 
   mutate(flavour_dimension = case_when(flavour %in% rich ~ "richness",
@@ -25,11 +25,26 @@ light <- c("Winey","Honey", "Spicy")
            summarise(flavour_strength = sum(strength)) %>%
     ungroup() %>% 
   pivot_wider(names_from = flavour_dimension, values_from = flavour_strength) %>% 
+  mutate(smoke = smoke_and_spice - light,
+         roundness = richness - delicate)
+
+
+whisky_profiles %>% 
    ggplot() +
-  aes(x = (richness - delicate) , y = (smoke_and_spice - light), colour = Region, label = info) +
-    geom_point()+
-geom_jitter() +
-      geom_text_repel()
+  aes(x = roundness , y = smoke, colour = Region) +
+    geom_point() +
+geom_jitter() + 
+  geom_text_repel(aes(label = info),
+                  box.padding   = 0.35, 
+                  point.padding = 0.5,
+                  segment.color = 'grey50',
+                  size = 2) +
+  theme(legend.position = "bottom")
+# xlim(25, 80) +
+#   ylim(0, 50)
+  
+ggsave("asdas.png")
+  
   # geom_text_repel(aes(label = info)) + # geom_label_repel()
   # xlim(25, 80) +
 #   # ylim(0, 50) +
@@ -38,7 +53,7 @@ geom_jitter() +
 #   ylab("Smokiness and Spice")
 #   
 #   +
-#   # theme(legend.position = "bottom")
+
 # mtcars
 ## , point.padding = NA   axis.text = element_blank()
 
