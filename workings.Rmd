@@ -1,31 +1,117 @@
 
 ```{r}
+
 flavours <- tidy_whisky %>%
     distinct(flavour)
 
-regional_palette <- tidy_whisky %>%
-    group_by(Region, flavour) %>% 
-summarise(average = mean(strength)) %>% 
-    print()
 
+smoke <- c("Smoky", "Medicinal", "Tobacco")
+delicate<- c("Floral", "Fruity")
+rich <- c("Body", "Sweetness", "Nutty", "Malty")
+light <- c("Winey","Honey", "Spicy")
 
+# whisky_profiles <-
+  
+  tidy_whisky %>%
+  filter(headline == "Distillery") %>% 
+# summarise(average = mean(strength)) %>% 
+  mutate(flavour_dimension = case_when(flavour %in% rich ~ "richness",
+                                       flavour %in% smoke ~ "smoke_and_spice",
+                                       flavour %in% delicate ~ "delicate",
+                                       flavour %in% light ~ "light",
+                                       TRUE ~ as.character(flavour))
+  ) %>%
+      group_by(Region, info, flavour_dimension) %>%
+           summarise(flavour_strength = sum(strength)) %>%
+    ungroup() %>% 
+  pivot_wider(names_from = flavour_dimension, values_from = flavour_strength) %>% 
+   ggplot() +
+  aes(x = (richness - delicate) , y = (smoke_and_spice - light), colour = Region, label = info) +
+    geom_point()+
+geom_jitter() +
+      geom_text_repel()
+  # geom_text_repel(aes(label = info)) + # geom_label_repel()
+  # xlim(25, 80) +
+#   # ylim(0, 50) +
+#  # 
+#   xlab("Richness") +
+#   ylab("Smokiness and Spice")
+#   
+#   +
+#   # theme(legend.position = "bottom")
+# mtcars
+## , point.padding = NA   axis.text = element_blank()
 
 ```
 Testing correlation between different flavours
-```{r}
+```{r message=FALSE, warning=FALSE}
 tidy_whisky %>%
-    select(Region, flavour, strength) %>% 
-    # pivot_wider(names_from = flavour, values_from = strength) %>% 
-ggpairs(colour = "Region")
+    pivot_wider(names_from = flavour, values_from = strength) %>%
+    select(Region, Body:Floral ) %>%
+    dummy_cols() %>% 
+ggpairs(columns = c(2:15),
+                aes(colour = Region, alpha = 0.5))
+
 
 
 ```
 
+```{r}
+library(glmulti)
 
+glmulti_fit <- glmulti(
+  y = Region,
+  xr = c("Body:Floral"),
+  data = whisky,
+  level = 2, # 2 = include pairwise interactions, 1 = main effects only (main effect = no pairwise interactions)
+  minsize = 0, # no min size of model
+  maxsize = -1, # -1 = no max size of model
+  marginality = TRUE, # marginality here means the same as 'strongly hierarchical' interactions, i.e. include pairwise interactions only if both predictors present in the model as main effects.
+  method = "g", # the problem is too large for exhaustive search, so search using a genetic algorithm
+  crit = bic, # criteria for model selection is BIC value (lower is better)
+  plotty = FALSE, # don't plot models as function runs
+  report = TRUE, # do produce reports as function runs
+  confsetsize = 100, # return best 100 solutions
+  fitfunction = lm # fit using the `lm` function
+)
+
+?glmulti
+```
+
+```{r}
+library(rpart)
+library(rpart.plot)
+library(dplyr)
+
+whisky_fit <- rpart(Region ~ ., 
+                     data = tidy_whisky, 
+                     method = 'class')
+
+rpart.plot(whisky_fit)
+```
 
 Testing negative correlation between smoky and floral, body and 
 ```{r}
-
+tidy_whisky %>%
+    filter(headline == "Distillery",
+           info == "Laphroaig") %>% 
+    select(flavour, strength) %>% 
+    distinct()
+    
+```
+```{r}
+tidy_whisky %>%
+    filter(headline == "Distillery",
+           info == "Clynelish") %>% 
+    select(flavour, strength) %>% 
+    distinct()
+```
+```{r}
+tidy_whisky %>%
+    filter(headline == "Distillery",
+           info == "Lagavulin") %>% 
+    select(flavour, strength) %>% 
+    distinct()
 ```
 
 ```{r}
