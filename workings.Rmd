@@ -1,26 +1,15 @@
 
 ```{r}
 
-?whisky
-
-flavours <- tidy_whisky %>%
-    distinct(flavour)
-
-
-smoke <- c("Smoky", "Medicinal", "Tobacco")
-delicate<- c("Floral", "Fruity")
-rich <- c("Body", "Sweetness", "Nutty", "Malty")
-light <- c("Winey","Honey", "Spicy")
-
-whisky_profiles <- tidy_whisky %>%
-  filter(headline == "Distillery") %>% 
+whisky_profiles <- whisky %>%
+  filter(Owner == "Diageo")
 # summarise(average = mean(strength)) %>% 
-  mutate(flavour_dimension = case_when(flavour %in% rich ~ "richness",
-                                       flavour %in% smoke ~ "smoke_and_spice",
-                                       flavour %in% delicate ~ "delicate",
-                                       flavour %in% light ~ "light",
-                                       TRUE ~ as.character(flavour))
-  ) %>%
+  # mutate(flavour_dimension = case_when(flavour %in% rich ~ "richness",
+  #                                      flavour %in% smoke ~ "smoke_and_spice",
+  #                                      flavour %in% delicate ~ "delicate",
+  #                                      flavour %in% light ~ "light",
+  #                                      TRUE ~ as.character(flavour))
+
       group_by(Region, info, flavour_dimension) %>%
            summarise(flavour_strength = sum(strength)) %>%
     ungroup() %>% 
@@ -29,15 +18,15 @@ whisky_profiles <- tidy_whisky %>%
          roundness = richness - delicate)
 
 
-whisky_profiles %>% 
+whisky_profiles %>%
    ggplot() +
   aes(x = roundness , y = smoke, colour = Region) +
     geom_point() +
 geom_jitter() + 
   geom_text_repel(aes(label = info),
-                  box.padding   = 0.35, 
-                  point.padding = 0.5,
-                  segment.color = 'grey50',
+                  # box.padding   = 0.35, 
+                  # point.padding = 0.5,
+                  # segment.color = 'grey50',
                   size = 2) +
   theme(legend.position = "bottom")
 # xlim(25, 80) +
@@ -67,8 +56,47 @@ tidy_whisky %>%
 ggpairs(columns = c(2:15),
                 aes(colour = Region, alpha = 0.5))
 
+ mutate(flavour_dimension = case_when(flavour %in% rich ~ "richness",
+                                       flavour %in% smoke ~ "smoke_and_spice",
+                                       flavour %in% delicate ~ "delicate",
+                                       flavour %in% light ~ "light",
+                                       TRUE ~ as.character(flavour)))
+ 
+ 
+ whisky %>% 
+   filter(Distillery %in% c("Ardbeg", "Linkwood", "Springbank", "Glenkinchie")) %>%
+  select(Distillery, Body:Floral)
+ 
+ 
+whisky %>% 
+filter(Region == "Islay") %>% 
+  select(Distillery, Body:Floral)
 
 
+ 
+smoke <- c("Body", "Smoky", "Medicinal")
+delicate<- c("Floral", "Fruity","Winey")
+rich <- c("Tobacco","Sweetness", "Malty")
+light <- c("Spicy","Nutty","Honey")
+```
+```{r}
+tidy_whisky %>%
+  filter(headline == "Distillery") %>% 
+# summarise(average = mean(strength)) %>% 
+  mutate(flavour_dimension = case_when(flavour %in% rich ~ "richness",
+                                       flavour %in% smoke ~ "smoke_and_spice",
+                                       flavour %in% delicate ~ "delicate",
+                                       flavour %in% light ~ "light",
+                                       TRUE ~ as.character(flavour))) %>% 
+     group_by(Region, info, flavour, flavour_dimension)
+
+%>%
+    #        # summarise(flavour_strength = sum(strength)) %>%
+    # ungroup() %>%
+  pivot_wider(names_from = flavour_dimension, values_from = flavour_strength) %>%
+  mutate(smoke = smoke_and_spice - light,
+         roundness = richness - delicate) %>% 
+  filter(Region == "Islay")
 ```
 
 ```{r}

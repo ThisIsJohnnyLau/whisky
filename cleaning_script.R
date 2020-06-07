@@ -1,11 +1,17 @@
-tidy_whisky <- whisky %>%
-    mutate(Region = as.factor(Region)) %>% 
-    pivot_longer(Body:Floral, names_to = "flavour", values_to = "strength") %>%
-    pivot_longer(Latitude:Longitude, names_to = "location_unit", values_to = "location") %>% 
-    pivot_longer(c(Distillery, Owner, Postcode), names_to = "headline", values_to = "info") %>%
-    pivot_longer(YearFound:Capacity, names_to = "metric", values_to = "figure") %>% 
-    relocate(c(Region, headline:figure))
+library(tidyverse)
+library(janitor)
+library(readr)
+library(here)
 
+# Using CodeClan whisky data
+library(CodeClanData)
+
+whisky %>%
+    mutate(Region = as.factor(Region)) %>%
+    select(-RowID) %>%
+    clean_names() %>% 
+    write_csv(here("clean_data/tidy_whisky.csv"))
 
 flavours <- tidy_whisky %>%
-    distinct(flavour)
+    select(body:floral) %>% 
+    names()
