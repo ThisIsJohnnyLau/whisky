@@ -9,9 +9,9 @@ library(CodeClanData)
 whisky %>%
     mutate(Region = as.factor(Region)) %>%
     select(-RowID) %>%
-    clean_names() %>% 
+    clean_names() %>%
+    # pivot_longer(body:floral, names_to = "flavour", values_to = "strength") %>%
+    relocate(smoky, .before = body) %>% 
+    relocate(medicinal, .after = smoky) %>% 
     write_csv(here("clean_data/tidy_whisky.csv"))
 
-flavours <- tidy_whisky %>%
-    select(body:floral) %>% 
-    names()
