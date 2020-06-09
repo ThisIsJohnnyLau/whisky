@@ -15,3 +15,5 @@ whisky %>%
     relocate(medicinal, .after = smoky) %>% 
     write_csv(here("clean_data/tidy_whisky.csv"))
 
+tidy_whisky <-
+    read_csv("clean_data/tidy_whisky.csv")

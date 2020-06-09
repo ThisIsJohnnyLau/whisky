@@ -1,0 +1,57 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = smoky) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = body) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = sweetness) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = honey) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = malty) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = nutty) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = spicy) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = floral) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = medicinal) +
+    geom_bar()
+
+```
+
+```{r}
+
+```
+
