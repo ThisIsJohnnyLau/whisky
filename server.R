@@ -5,16 +5,14 @@ server <- function(input, output){
     output$whisky_plot <- renderPlot({
         
         tidy_whisky %>%
-            filter(between(smoky, input$smoky - 1, input$smoky + 1)) %>%
-            filter(between(body, input$body - 1, input$body + 1)) %>%
-            filter(between(smoky, input$smoky - 1, input$smoky + 1)) %>%
-            # filter(body < input$body + 1 & body > input$body - 1) %>%
-            filter(sweetness < input$sweetness + 1 & sweetness > input$sweetness - 1) %>%
-            filter(ifelse(input$floral == TRUE, floral == 0, floral > -1)) %>%
-            # filter(if_else(input$honey == FALSE, honey == 0) %>%
-            # filter(if_else(input$nutty == FALSE, nutty == 0) %>%
-            # filter(if_else(input$medicinal == FALSE, medicinal == 0) %>%
-            # filter(if_else(input$spicy == FALSE, spicy == 0) %>%
+            filter(smoky == input$smoky) %>%
+            filter(body == input$body) %>%
+            filter(sweetness == input$sweetness) %>%
+            filter(if(input$floral == TRUE) {floral == 0} else {floral == floral}) %>%
+            filter(if(input$honey == TRUE) {honey == 0} else {honey == honey}) %>%
+            filter(if(input$nutty == TRUE) {nutty == 0} else {nutty == nutty}) %>%
+            filter(if(input$medicinal == TRUE) {medicinal == 0} else {medicinal == medicinal}) %>%
+            filter(if(input$spicy == TRUE) {spicy == 0} else {spicy == spicy}) %>%
             # filter(tobacco == input$tobacco) %>%
             # filter(malty == input$malty) %>%
             # filter(winey == input$winey ) %>%
@@ -41,11 +39,11 @@ server <- function(input, output){
             filter(smoky == input$smoky) %>%
             filter(body == input$body) %>%
             filter(sweetness == input$sweetness) %>%
-            filter(if(input$floral == "No") floral == 0 else TRUE) %>%
-            filter(if(input$honey == "No") honey == 0 else TRUE) %>%
-            filter(if(input$nutty == "No") nutty == 0 else TRUE) %>%
-            # filter(if(input$medicinal == "No") medicinal == 0 else TRUE) %>%
-            filter(if(input$spicy == "No") spicy == 0 else TRUE) %>%
+            filter(if(input$floral == TRUE) {floral == 0} else {floral == floral}) %>%
+            filter(if(input$honey == TRUE) {honey == 0} else {honey == honey}) %>%
+            filter(if(input$nutty == TRUE) {nutty == 0} else {nutty == nutty}) %>%
+            filter(if(input$medicinal == TRUE) {medicinal == 0} else {medicinal == medicinal}) %>%
+            filter(if(input$spicy == TRUE) {spicy == 0} else {spicy == spicy}) %>%
             # filter(tobacco == input$tobacco) %>%
             # filter(malty == input$malty) %>%
             # filter(winey == input$winey ) %>%

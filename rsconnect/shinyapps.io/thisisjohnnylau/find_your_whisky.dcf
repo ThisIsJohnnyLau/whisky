@@ -5,9 +5,9 @@ account: thisisjohnnylau
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2436142
-bundleId: 3252096
+bundleId: 3288122
 url: https://thisisjohnnylau.shinyapps.io/find_your_whisky/
-when: 1591799414.18926
+when: 1592496775.77993
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: asdas.png|cleaning_script_personal.R|flavour_exploration.nb.html|flavour_exploration.Rmd|README.md|restart.nb.html|restart.Rmd|workings_2.Rmd|workings.Rmd
+ignoredFiles: README.md

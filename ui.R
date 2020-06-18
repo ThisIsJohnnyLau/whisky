@@ -76,8 +76,8 @@ ui <- fluidPage(titlePanel("Guide to YOUR WHISKIES in Scotland"),sidebarLayout(
             checkboxInput("honey", "honey", value = FALSE),
             checkboxInput("nutty", "nutty", value = FALSE),
             checkboxInput("medicinal", "medicinal", value = FALSE),
-            checkboxInput("floral", "floral", value = FALSE),
-            checkboxInput("floral", "floral", value = FALSE),
+            # checkboxInput("floral", "floral", value = FALSE),
+            # checkboxInput("floral", "floral", value = FALSE),
             checkboxInput("spicy", "spicy", value = FALSE),
         
             #             radioButtons("floral",
