@@ -1,0 +1,77 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = smoky) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = body) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = sweetness) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = honey) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = malty) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = nutty) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = spicy) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = floral) +
+    geom_bar()
+
+tidy_whisky %>% 
+    ggplot() +
+    aes(x = medicinal) +
+    geom_bar()
+
+```
+
+```{r}
+
+```
+
+```{r}
+ tidy_whisky %>%
+            # filter(smoky == 2) %>%
+            filter(body == 2) %>%
+            filter(sweetness == 2) %>%
+            filter(if(TRUE == TRUE) spicy == 0 else spicy > 0)
+                   
+                   
+1 ==1
+%>%
+            # filter(if((input$medicinal == "Yes") medicinal > 0 else medicinal == 0)) %>%
+            # filter(if((input$honey == "Yes") honey > 0 else honey == 0)) %>%
+            # filter(if((input$nutty == "Yes") nutty > 0 else nutty == 0)) %>%
+            # filter(if((input$floral == "Yes") floral > 0 else floral == 0)) %>%
+            # filter(tobacco == input$tobacco) %>%
+            # filter(malty == input$malty) %>%
+            # filter(winey == input$winey ) %>%
+            # filter(fruity == input$fruity) %>%
+```
+

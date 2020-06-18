@@ -1,87 +1,87 @@
-distillery,region,year_found,owner,capacity,smoky,medicinal,body,sweetness,tobacco,honey,spicy,winey,nutty,malty,fruity,floral,postcode,latitude,longitude
-Aberfeldy,Highlands,1896,John Dewar & Sons (Bacardi),3350000,2,0,2,2,0,2,1,2,2,2,2,2,PH15 2EB,-3.850199013,56.62519115
-Aberlour,Speyside,1826,Chivas Brothers Ltd (Pernod Ricard),3800000,1,0,3,3,0,4,3,2,2,3,3,2,AB38 9PJ,-3.229643877,57.46739473
-AnCnoc,Highlands,1893,Inver House Distillers (Thai Beverages plc),1900000,2,0,1,3,0,2,0,0,2,2,3,2,AB5 5LI,-2.785294605,57.44175084
-Ardbeg,Islay,1815,The Glenmorangie Co. (LVMH),1350000,4,4,4,1,0,0,2,0,1,2,1,0,PA42 7EB,-6.108502892,55.64060693
-Ardmore,Highlands,1898,Beam Suntory,5540000,2,0,2,2,0,1,1,1,2,3,1,1,AB54 4NH,-2.743628516,57.35055698
-Arran,Highlands,1993,Isle of Arran Distillers,1200000,1,1,2,3,0,1,1,1,0,1,1,2,KA27 8HJ,-5.278894644,55.69914543
-Auchentoshan,Lowlands,1823,Morrison Bowmore (Beam Suntory),2050000,0,0,0,2,0,1,1,0,2,2,3,3,G81 4SJ,-4.439338875,55.9223731
-Auchroisk,Speyside,1974,Diageo,5800000,1,0,2,3,0,2,1,2,2,2,2,1,AB55 3XS,-2.990864905,57.52387193
-Aultmore,Speyside,1896,John Dewar & Sons (Bacardi),3200000,1,0,2,2,0,1,0,0,2,2,2,2,AB55 3QY,-2.990864905,57.52387193
-Balblair,Highlands,1790,Inver House Distillers (Thai Beverages plc),1800000,2,1,2,3,0,0,2,0,2,1,2,1,IV19 1LB,-4.177749187,57.842735
-Balmenach,Speyside,1824,Inver House Distillers (Thai Beverages plc),2800000,2,0,4,3,0,2,1,3,3,0,1,2,PH26 3PF,-3.533655781,57.32570941
-Balvenie,Speyside,1892,William Grant & Sons,6300000,1,0,3,2,0,3,2,1,0,2,2,2,AB55 4DH,-3.123496696,57.4528442
-BenNevis,Highlands,1825,Ben Nevis Distillery Ltd (Nikka  Asahi Breweries),2000000,2,0,4,2,0,2,2,0,2,2,2,2,PH33 6TJ,-5.073417961,56.83495219
-Benriach,Speyside,1897,Benriach Distillery Co. (Brown Forman),2800000,1,0,2,2,0,2,2,0,0,2,3,2,IV30 8SJ,-3.282789232,57.60889277
-Benrinnes,Speyside,1826,Diageo,3550000,2,0,3,2,0,3,1,1,2,3,2,2,AB38 9NN,-3.237839217,57.4435084
-Benromach,Speyside,1898,Gordon & MacPhail,600000,2,0,2,2,0,2,2,1,2,2,2,2,IV36 3EB,-3.619764409,57.61373702
-Bladnoch,Lowlands,1817,Bladnoch Distillery Ltd,1500000,1,0,1,2,0,0,1,1,0,2,2,3,DG8 9AB,-4.458949266,54.8581926
-BlairAthol,Highlands,1798,Diageo,2650000,2,0,2,2,0,1,2,2,2,2,2,2,PH16 5LY,-3.718544079,56.69806338
-Bowmore,Islay,1779,Morrison Bowmore (Beam Suntory),2150000,3,1,2,2,0,2,2,1,1,1,1,2,PA43 7GS,-6.28380622,55.75602432
-Bruichladdich,Islay,1881,Rémy Cointreau,1750000,2,2,1,1,0,2,2,1,2,2,2,2,PA49 7UN,-6.359364476,55.7684733
-Bunnahabhain,Islay,1881,Burn Stewart Distillers (Distell International),2600000,1,1,1,2,0,1,1,1,1,2,2,3,PA46 7RR,-6.123656815,55.88247491
-Caol Ila,Islay,1846,Diageo,6450000,4,2,3,1,1,0,2,0,2,1,1,1,PA46 7RL,-6.10936872,55.85480396
-Cardhu,Speyside,1824,Diageo,3350000,1,0,1,3,0,1,1,0,2,2,2,2,AB38 7RY,-3.355645134,57.47077433
-Clynelish,Highlands,1967,Diageo,4750000,3,3,3,2,1,0,2,0,1,1,2,0,KW9 6LB,-3.859208477,58.01364743
-Craigellachie,Speyside,1891,John Dewar & Sons (Bacardi),4150000,2,0,2,2,1,2,2,1,2,2,1,4,AB38 9ST,-3.187327845,57.4889112
-Cragganmore,Speyside,1869,Diageo,2200000,2,1,2,3,0,0,1,0,2,2,2,2,AB37 9AB,-3.389855519,57.41003141
-Dailuaine,Speyside,1852,Diageo,5050000,2,0,4,2,0,1,2,2,2,2,2,1,AB38 7RE,-3.276154891,57.45291827
-Dalmore,Highlands,1839,Whyte & Mackay (Emprador),4250000,2,1,3,2,0,1,2,2,1,2,3,1,IV17 0UT,-4.239120326,57.68856066
-Dalwhinne,Highlands,1897,Diageo,2200000,2,0,2,2,0,2,1,0,1,2,2,2,PH19 1AB,-4.242292788,56.93856326
-Deanston,Highlands,1965,Burn Stewart Distillers (Distell International),2850000,1,0,2,2,0,2,1,1,1,3,2,1,FK16 6AG,-4.071063716,56.18937637
-Dufftown,Speyside,1896,Diageo,5950000,1,1,2,3,0,0,0,0,1,2,2,2,AB55 4BR,-3.128374395,57.438068
-Edradour,Highlands,1825,Signatory Vintage Scotch Whisky Co. Ltd,197500,1,0,2,3,0,2,1,1,4,2,2,2,PH16 5JP,-3.700735988,56.70154251
-Macduff,Highlands,1962,John Dewar & Sons (Bacardi),3400000,1,1,2,3,1,1,1,2,0,2,0,1,AB4 3JT,-2.468546969,57.63267931
-GlenElgin,Speyside,1898,Diageo,2650000,1,0,2,3,0,2,1,1,1,1,2,3,IV30 3SL,-3.297192577,57.63264135
-GlenGarioch,Highlands,1797,Morrison Bowmore (Beam Suntory),1435000,3,0,2,1,0,0,3,1,0,2,2,2,AB51 0ES,-2.316943285,57.33843197
-GlenGrant,Speyside,1840,Campari Group,6150000,0,0,1,2,0,1,0,1,2,1,2,1,AB38 7BS,-3.210556717,57.53046289
-GlenKeith,Speyside,1957,Chivas Brothers Ltd (Pernod Ricard),6000000,1,0,2,3,0,1,2,1,2,1,2,1,AB55 3BU,-2.990864905,57.52387193
-GlenMoray,Speyside,1897,Glen Turner (La Martiniquaise),5850000,1,0,1,2,0,1,2,1,2,2,2,4,IV30 1YE,-3.344828943,57.64364228
-GlenOrd,Highlands,1838,Diageo,11250000,1,0,3,2,0,1,2,1,1,2,2,2,IV6 7UJ,-4.476185052,57.52356368
-GlenScotia,Campbeltown,1832,Loch Lomond Group,775000,2,2,2,2,0,1,0,1,2,2,1,1,PA28 6DS,-5.603737295,55.42980987
-GlenSpey,Speyside,1878,Diageo,1500000,1,0,1,3,0,0,1,1,1,2,0,2,AB38 7AU,-3.207924642,57.52662529
-Glenallachie,Speyside,1967,The Glenallachie Distillers Co.,4000000,1,0,1,3,0,1,1,0,1,2,2,2,AB38 9LR,-3.226743617,57.45547503
-Glendronach,Highlands,1826,Benriach Distillery Co. (Brown Forman),1400000,2,0,4,2,0,2,1,4,2,2,2,0,AB54 6DA,-2.648927487,57.49292029
-Glendullan,Speyside,1897,Diageo,4300000,1,0,3,2,0,2,1,2,1,2,3,2,AB55 4DJ,-3.118017226,57.44804195
-Glenfarclas,Speyside,1836,J. & G. Grant,3750000,1,0,2,4,0,1,2,3,2,3,2,2,AB37 9BD,-3.318049104,57.42688393
-Glenfiddich,Speyside,1886,William Grant & Sons,11850000,1,0,1,3,0,0,0,0,0,2,2,2,AB55 4DH,-3.123496696,57.4528442
-Glengoyne,Highlands,1833,Ian Macleod Distillers,1100000,0,0,1,2,0,1,1,1,2,2,3,2,G63 9LB,-4.362706468,56.01500167
-Glenkinchie,Lowlands,1837,Diageo,2500000,1,0,1,2,0,1,2,0,0,2,2,2,EH34 5ET,-2.890845274,55.89011725
-Glenlivet,Speyside,1824,Chivas Brothers Ltd (Pernod Ricard),21000000,1,0,2,3,0,2,2,2,1,2,2,3,AB37 9DB,-3.338116284,57.34240537
-Glenlossie,Speyside,1876,Diageo,3250000,1,0,1,2,0,1,2,0,1,2,2,2,IV30 3SS,-3.297192577,57.63264135
-Glenmorangie,Highlands,1843,The Glenmorangie Co. (LVMH),6100000,1,1,2,2,0,1,2,0,2,1,2,2,IV19 1PZ,-4.0767346,57.82358488
-Glenrothes,Speyside,1878,The Edrington Group,5550000,1,0,2,3,0,1,1,2,1,2,2,0,AB38 7AA,-3.209769888,57.52687711
-Glenturret,Highlands,1775,The Edrington Group,295000,1,0,2,3,0,2,2,2,2,2,1,2,PH7 4HA,-3.854193968,56.39060298
-Highland Park,Highlands,1798,The Edrington Group,2600000,3,1,2,2,0,2,1,1,1,2,1,1,KW15 1SU,-2.952215482,58.96701022
-Inchgower,Speyside,1871,Diageo,3200000,1,1,1,3,0,2,2,0,1,2,1,2,AB56 5AB,-2.963519773,57.66194437
-Jura,Highlands,1810,Whyte & Mackay (Emprador),2300000,2,2,2,1,0,1,1,0,2,1,1,1,PA60 7XT,-5.951427767,55.83300623
-Knockando,Speyside,1898,Diageo,1400000,1,0,2,3,0,2,2,1,2,1,2,2,AB38 7RT,-3.343810121,57.45724597
-Lagavulin,Islay,1816,Diageo,2465000,4,4,4,1,1,0,1,2,1,1,1,0,PA42 7DZ,-6.125945577,55.63561374
-Laphroaig,Islay,1815,Beam Suntory,3378500,4,4,4,2,1,0,0,1,1,1,0,0,PA42 7DU,-6.153128926,55.62956856
-Linkwood,Speyside,1821,Diageo,4650000,1,0,2,3,0,1,1,2,0,1,3,2,IV30 3RD,-3.297192577,57.63264135
-Loch Lomond,Highlands,1965,Loch Lomond Group,4875000,1,1,1,1,0,1,1,0,1,2,1,2,G83 0TL,-4.576972723,55.99426023
-Longmorn,Speyside,1894,Chivas Brothers Ltd (Pernod Ricard),4500000,1,0,3,2,0,1,1,1,3,3,2,3,IV30 3SJ,-3.297192577,57.63264135
-Macallan,Speyside,1824,The Edrington Group,15000000,1,0,4,3,0,2,1,4,2,2,3,1,AB38 9RX,-3.207376158,57.48476819
-Mannochmore,Speyside,1971,Diageo,4300000,1,0,2,1,0,1,1,1,2,1,2,2,IV30 3SS,-3.297192577,57.63264135
-Miltonduff,Speyside,1824,Chivas Brothers Ltd (Pernod Ricard),5800000,1,0,2,4,0,1,0,0,2,1,1,2,IV30 3TQ,-3.297192577,57.63264135
-Mortlach,Speyside,1823,Diageo,3800000,2,0,3,2,0,2,3,3,2,1,2,2,AB55 4AQ,-3.118726736,57.44399317
-Oban,Highlands,1794,Diageo,835000,2,2,2,2,0,0,2,0,2,2,2,0,PA34 5NH,-5.471832724,56.41525894
-Fettercairn,Highlands,1824,Whyte & Mackay (Emprador),2750000,2,0,1,2,1,2,2,1,2,3,1,1,AB30 1YE,-2.479332351,56.8466258
-Pulteney,Highlands,1826,Inver House Distillers (Thai Beverages plc),1600000,2,2,2,1,1,0,1,1,2,2,2,2,KW1 5BA,-3.085261374,58.43488448
-RoyalBrackla,Highlands,1812,John Dewar & Sons (Bacardi),4100000,2,1,2,3,1,1,2,1,0,2,3,2,IV12 5QY,-3.905230532,57.53760987
-RoyalLochnagar,Highlands,1845,Diageo,500000,2,0,3,2,0,2,2,2,2,2,3,1,AB35 5TB,-3.21860196,57.03448752
-Scapa,Highlands,1885,Chivas Brothers Ltd (Pernod Ricard),950000,1,1,2,2,0,2,1,1,2,2,2,2,KW15 1SE,-2.995421181,58.96372138
-Speyburn,Speyside,1897,Inver House Distillers (Thai Beverages plc),4350000,1,0,2,4,0,2,1,0,0,2,1,2,AB38 7AG,-3.222468916,57.54705703
-Speyside,Speyside,1976,Speyside Distillers Co.,600000,1,0,2,2,0,1,0,1,2,2,2,2,PH21 1NS,-4.002173683,57.08038682
-Springbank,Campbeltown,1828,Springbank Distillers (J & A Mitchell),750000,2,2,2,2,0,2,2,1,2,1,0,1,PA28 6EJ,-5.600659207,55.42900142
-Strathisla,Speyside,1786,Chivas Brothers Ltd (Pernod Ricard),2450000,1,0,2,2,0,2,2,2,3,3,3,2,AB55 3BS,-2.990864905,57.52387193
-Strathmill,Speyside,1891,Diageo,2300000,1,0,2,3,0,0,2,0,2,1,3,2,AB55 5DQ,-2.959656162,57.54097418
-Talisker,Highlands,1830,Diageo,3150000,3,3,4,2,0,1,3,0,1,2,2,0,IV47 8SR,-6.352166071,57.30105105
-Tamdhu,Speyside,1896,Ian Macleod Distillers,4000000,1,0,1,2,0,2,0,1,1,2,2,2,AB38 7RP,-3.348204879,57.45890592
-Tamnavulin,Speyside,1966,Whyte & Mackay (Emprador),4000000,2,0,1,3,0,0,2,0,2,1,2,3,AB37 9JA,-3.310354804,57.318711
-Teaninich,Highlands,1817,Diageo,10200000,2,1,2,2,0,0,2,0,0,0,2,2,IV17 0XB,-4.260287061,57.69168849
-Tobermory,Highlands,1798,Burn Stewart Distillers (Distell International),1000000,1,0,1,1,0,1,0,0,1,2,2,2,PA75 6NR,-6.069530472,56.62080598
-Tomatin,Highlands,1897,Tomatin Distillery Co.,5000000,2,0,2,3,0,2,2,1,1,2,0,1,IV13 7YT,-4.010031385,57.34110141
-Tomintoul,Speyside,1964,Angus Dundee Distillers,3300000,1,0,0,3,0,2,2,1,1,2,1,2,AB37 9AQ,-3.411082873,57.31268009
-Tormore,Speyside,1958,Chivas Brothers Ltd (Pernod Ricard),4600000,1,0,2,2,0,1,0,1,2,1,0,0,PH26 3LR,-3.412995868,57.39710681
-Tullibardine,Highlands,1949,Picard Vins & Spiriteaux,2950000,0,0,2,3,1,0,2,1,1,2,2,1,PH4 1QG,-3.782289533,56.25929564
+distillery,region,year_found,owner,capacity,smoky,medicinal,tobacco,spicy,winey,body,sweetness,malty,nutty,honey,fruity,floral,postcode,latitude,longitude
+Aberfeldy,Highlands,1896,John Dewar & Sons (Bacardi),3350000,2,0,0,1,2,2,2,2,2,2,2,2,PH15 2EB,-3.850199013,56.62519115
+Aberlour,Speyside,1826,Chivas Brothers Ltd (Pernod Ricard),3800000,1,0,0,3,2,3,3,3,2,4,3,2,AB38 9PJ,-3.229643877,57.46739473
+AnCnoc,Highlands,1893,Inver House Distillers (Thai Beverages plc),1900000,2,0,0,0,0,1,3,2,2,2,3,2,AB5 5LI,-2.785294605,57.44175084
+Ardbeg,Islay,1815,The Glenmorangie Co. (LVMH),1350000,4,4,0,2,0,4,1,2,1,0,1,0,PA42 7EB,-6.108502892,55.64060693
+Ardmore,Highlands,1898,Beam Suntory,5540000,2,0,0,1,1,2,2,3,2,1,1,1,AB54 4NH,-2.743628516,57.35055698
+Arran,Highlands,1993,Isle of Arran Distillers,1200000,1,1,0,1,1,2,3,1,0,1,1,2,KA27 8HJ,-5.278894644,55.69914543
+Auchentoshan,Lowlands,1823,Morrison Bowmore (Beam Suntory),2050000,0,0,0,1,0,0,2,2,2,1,3,3,G81 4SJ,-4.439338875,55.9223731
+Auchroisk,Speyside,1974,Diageo,5800000,1,0,0,1,2,2,3,2,2,2,2,1,AB55 3XS,-2.990864905,57.52387193
+Aultmore,Speyside,1896,John Dewar & Sons (Bacardi),3200000,1,0,0,0,0,2,2,2,2,1,2,2,AB55 3QY,-2.990864905,57.52387193
+Balblair,Highlands,1790,Inver House Distillers (Thai Beverages plc),1800000,2,1,0,2,0,2,3,1,2,0,2,1,IV19 1LB,-4.177749187,57.842735
+Balmenach,Speyside,1824,Inver House Distillers (Thai Beverages plc),2800000,2,0,0,1,3,4,3,0,3,2,1,2,PH26 3PF,-3.533655781,57.32570941
+Balvenie,Speyside,1892,William Grant & Sons,6300000,1,0,0,2,1,3,2,2,0,3,2,2,AB55 4DH,-3.123496696,57.4528442
+BenNevis,Highlands,1825,Ben Nevis Distillery Ltd (Nikka  Asahi Breweries),2000000,2,0,0,2,0,4,2,2,2,2,2,2,PH33 6TJ,-5.073417961,56.83495219
+Benriach,Speyside,1897,Benriach Distillery Co. (Brown Forman),2800000,1,0,0,2,0,2,2,2,0,2,3,2,IV30 8SJ,-3.282789232,57.60889277
+Benrinnes,Speyside,1826,Diageo,3550000,2,0,0,1,1,3,2,3,2,3,2,2,AB38 9NN,-3.237839217,57.4435084
+Benromach,Speyside,1898,Gordon & MacPhail,600000,2,0,0,2,1,2,2,2,2,2,2,2,IV36 3EB,-3.619764409,57.61373702
+Bladnoch,Lowlands,1817,Bladnoch Distillery Ltd,1500000,1,0,0,1,1,1,2,2,0,0,2,3,DG8 9AB,-4.458949266,54.8581926
+BlairAthol,Highlands,1798,Diageo,2650000,2,0,0,2,2,2,2,2,2,1,2,2,PH16 5LY,-3.718544079,56.69806338
+Bowmore,Islay,1779,Morrison Bowmore (Beam Suntory),2150000,3,1,0,2,1,2,2,1,1,2,1,2,PA43 7GS,-6.28380622,55.75602432
+Bruichladdich,Islay,1881,Rémy Cointreau,1750000,2,2,0,2,1,1,1,2,2,2,2,2,PA49 7UN,-6.359364476,55.7684733
+Bunnahabhain,Islay,1881,Burn Stewart Distillers (Distell International),2600000,1,1,0,1,1,1,2,2,1,1,2,3,PA46 7RR,-6.123656815,55.88247491
+Caol Ila,Islay,1846,Diageo,6450000,4,2,1,2,0,3,1,1,2,0,1,1,PA46 7RL,-6.10936872,55.85480396
+Cardhu,Speyside,1824,Diageo,3350000,1,0,0,1,0,1,3,2,2,1,2,2,AB38 7RY,-3.355645134,57.47077433
+Clynelish,Highlands,1967,Diageo,4750000,3,3,1,2,0,3,2,1,1,0,2,0,KW9 6LB,-3.859208477,58.01364743
+Craigellachie,Speyside,1891,John Dewar & Sons (Bacardi),4150000,2,0,1,2,1,2,2,2,2,2,1,4,AB38 9ST,-3.187327845,57.4889112
+Cragganmore,Speyside,1869,Diageo,2200000,2,1,0,1,0,2,3,2,2,0,2,2,AB37 9AB,-3.389855519,57.41003141
+Dailuaine,Speyside,1852,Diageo,5050000,2,0,0,2,2,4,2,2,2,1,2,1,AB38 7RE,-3.276154891,57.45291827
+Dalmore,Highlands,1839,Whyte & Mackay (Emprador),4250000,2,1,0,2,2,3,2,2,1,1,3,1,IV17 0UT,-4.239120326,57.68856066
+Dalwhinne,Highlands,1897,Diageo,2200000,2,0,0,1,0,2,2,2,1,2,2,2,PH19 1AB,-4.242292788,56.93856326
+Deanston,Highlands,1965,Burn Stewart Distillers (Distell International),2850000,1,0,0,1,1,2,2,3,1,2,2,1,FK16 6AG,-4.071063716,56.18937637
+Dufftown,Speyside,1896,Diageo,5950000,1,1,0,0,0,2,3,2,1,0,2,2,AB55 4BR,-3.128374395,57.438068
+Edradour,Highlands,1825,Signatory Vintage Scotch Whisky Co. Ltd,197500,1,0,0,1,1,2,3,2,4,2,2,2,PH16 5JP,-3.700735988,56.70154251
+Macduff,Highlands,1962,John Dewar & Sons (Bacardi),3400000,1,1,1,1,2,2,3,2,0,1,0,1,AB4 3JT,-2.468546969,57.63267931
+GlenElgin,Speyside,1898,Diageo,2650000,1,0,0,1,1,2,3,1,1,2,2,3,IV30 3SL,-3.297192577,57.63264135
+GlenGarioch,Highlands,1797,Morrison Bowmore (Beam Suntory),1435000,3,0,0,3,1,2,1,2,0,0,2,2,AB51 0ES,-2.316943285,57.33843197
+GlenGrant,Speyside,1840,Campari Group,6150000,0,0,0,0,1,1,2,1,2,1,2,1,AB38 7BS,-3.210556717,57.53046289
+GlenKeith,Speyside,1957,Chivas Brothers Ltd (Pernod Ricard),6000000,1,0,0,2,1,2,3,1,2,1,2,1,AB55 3BU,-2.990864905,57.52387193
+GlenMoray,Speyside,1897,Glen Turner (La Martiniquaise),5850000,1,0,0,2,1,1,2,2,2,1,2,4,IV30 1YE,-3.344828943,57.64364228
+GlenOrd,Highlands,1838,Diageo,11250000,1,0,0,2,1,3,2,2,1,1,2,2,IV6 7UJ,-4.476185052,57.52356368
+GlenScotia,Campbeltown,1832,Loch Lomond Group,775000,2,2,0,0,1,2,2,2,2,1,1,1,PA28 6DS,-5.603737295,55.42980987
+GlenSpey,Speyside,1878,Diageo,1500000,1,0,0,1,1,1,3,2,1,0,0,2,AB38 7AU,-3.207924642,57.52662529
+Glenallachie,Speyside,1967,The Glenallachie Distillers Co.,4000000,1,0,0,1,0,1,3,2,1,1,2,2,AB38 9LR,-3.226743617,57.45547503
+Glendronach,Highlands,1826,Benriach Distillery Co. (Brown Forman),1400000,2,0,0,1,4,4,2,2,2,2,2,0,AB54 6DA,-2.648927487,57.49292029
+Glendullan,Speyside,1897,Diageo,4300000,1,0,0,1,2,3,2,2,1,2,3,2,AB55 4DJ,-3.118017226,57.44804195
+Glenfarclas,Speyside,1836,J. & G. Grant,3750000,1,0,0,2,3,2,4,3,2,1,2,2,AB37 9BD,-3.318049104,57.42688393
+Glenfiddich,Speyside,1886,William Grant & Sons,11850000,1,0,0,0,0,1,3,2,0,0,2,2,AB55 4DH,-3.123496696,57.4528442
+Glengoyne,Highlands,1833,Ian Macleod Distillers,1100000,0,0,0,1,1,1,2,2,2,1,3,2,G63 9LB,-4.362706468,56.01500167
+Glenkinchie,Lowlands,1837,Diageo,2500000,1,0,0,2,0,1,2,2,0,1,2,2,EH34 5ET,-2.890845274,55.89011725
+Glenlivet,Speyside,1824,Chivas Brothers Ltd (Pernod Ricard),21000000,1,0,0,2,2,2,3,2,1,2,2,3,AB37 9DB,-3.338116284,57.34240537
+Glenlossie,Speyside,1876,Diageo,3250000,1,0,0,2,0,1,2,2,1,1,2,2,IV30 3SS,-3.297192577,57.63264135
+Glenmorangie,Highlands,1843,The Glenmorangie Co. (LVMH),6100000,1,1,0,2,0,2,2,1,2,1,2,2,IV19 1PZ,-4.0767346,57.82358488
+Glenrothes,Speyside,1878,The Edrington Group,5550000,1,0,0,1,2,2,3,2,1,1,2,0,AB38 7AA,-3.209769888,57.52687711
+Glenturret,Highlands,1775,The Edrington Group,295000,1,0,0,2,2,2,3,2,2,2,1,2,PH7 4HA,-3.854193968,56.39060298
+Highland Park,Highlands,1798,The Edrington Group,2600000,3,1,0,1,1,2,2,2,1,2,1,1,KW15 1SU,-2.952215482,58.96701022
+Inchgower,Speyside,1871,Diageo,3200000,1,1,0,2,0,1,3,2,1,2,1,2,AB56 5AB,-2.963519773,57.66194437
+Jura,Highlands,1810,Whyte & Mackay (Emprador),2300000,2,2,0,1,0,2,1,1,2,1,1,1,PA60 7XT,-5.951427767,55.83300623
+Knockando,Speyside,1898,Diageo,1400000,1,0,0,2,1,2,3,1,2,2,2,2,AB38 7RT,-3.343810121,57.45724597
+Lagavulin,Islay,1816,Diageo,2465000,4,4,1,1,2,4,1,1,1,0,1,0,PA42 7DZ,-6.125945577,55.63561374
+Laphroaig,Islay,1815,Beam Suntory,3378500,4,4,1,0,1,4,2,1,1,0,0,0,PA42 7DU,-6.153128926,55.62956856
+Linkwood,Speyside,1821,Diageo,4650000,1,0,0,1,2,2,3,1,0,1,3,2,IV30 3RD,-3.297192577,57.63264135
+Loch Lomond,Highlands,1965,Loch Lomond Group,4875000,1,1,0,1,0,1,1,2,1,1,1,2,G83 0TL,-4.576972723,55.99426023
+Longmorn,Speyside,1894,Chivas Brothers Ltd (Pernod Ricard),4500000,1,0,0,1,1,3,2,3,3,1,2,3,IV30 3SJ,-3.297192577,57.63264135
+Macallan,Speyside,1824,The Edrington Group,15000000,1,0,0,1,4,4,3,2,2,2,3,1,AB38 9RX,-3.207376158,57.48476819
+Mannochmore,Speyside,1971,Diageo,4300000,1,0,0,1,1,2,1,1,2,1,2,2,IV30 3SS,-3.297192577,57.63264135
+Miltonduff,Speyside,1824,Chivas Brothers Ltd (Pernod Ricard),5800000,1,0,0,0,0,2,4,1,2,1,1,2,IV30 3TQ,-3.297192577,57.63264135
+Mortlach,Speyside,1823,Diageo,3800000,2,0,0,3,3,3,2,1,2,2,2,2,AB55 4AQ,-3.118726736,57.44399317
+Oban,Highlands,1794,Diageo,835000,2,2,0,2,0,2,2,2,2,0,2,0,PA34 5NH,-5.471832724,56.41525894
+Fettercairn,Highlands,1824,Whyte & Mackay (Emprador),2750000,2,0,1,2,1,1,2,3,2,2,1,1,AB30 1YE,-2.479332351,56.8466258
+Pulteney,Highlands,1826,Inver House Distillers (Thai Beverages plc),1600000,2,2,1,1,1,2,1,2,2,0,2,2,KW1 5BA,-3.085261374,58.43488448
+RoyalBrackla,Highlands,1812,John Dewar & Sons (Bacardi),4100000,2,1,1,2,1,2,3,2,0,1,3,2,IV12 5QY,-3.905230532,57.53760987
+RoyalLochnagar,Highlands,1845,Diageo,500000,2,0,0,2,2,3,2,2,2,2,3,1,AB35 5TB,-3.21860196,57.03448752
+Scapa,Highlands,1885,Chivas Brothers Ltd (Pernod Ricard),950000,1,1,0,1,1,2,2,2,2,2,2,2,KW15 1SE,-2.995421181,58.96372138
+Speyburn,Speyside,1897,Inver House Distillers (Thai Beverages plc),4350000,1,0,0,1,0,2,4,2,0,2,1,2,AB38 7AG,-3.222468916,57.54705703
+Speyside,Speyside,1976,Speyside Distillers Co.,600000,1,0,0,0,1,2,2,2,2,1,2,2,PH21 1NS,-4.002173683,57.08038682
+Springbank,Campbeltown,1828,Springbank Distillers (J & A Mitchell),750000,2,2,0,2,1,2,2,1,2,2,0,1,PA28 6EJ,-5.600659207,55.42900142
+Strathisla,Speyside,1786,Chivas Brothers Ltd (Pernod Ricard),2450000,1,0,0,2,2,2,2,3,3,2,3,2,AB55 3BS,-2.990864905,57.52387193
+Strathmill,Speyside,1891,Diageo,2300000,1,0,0,2,0,2,3,1,2,0,3,2,AB55 5DQ,-2.959656162,57.54097418
+Talisker,Highlands,1830,Diageo,3150000,3,3,0,3,0,4,2,2,1,1,2,0,IV47 8SR,-6.352166071,57.30105105
+Tamdhu,Speyside,1896,Ian Macleod Distillers,4000000,1,0,0,0,1,1,2,2,1,2,2,2,AB38 7RP,-3.348204879,57.45890592
+Tamnavulin,Speyside,1966,Whyte & Mackay (Emprador),4000000,2,0,0,2,0,1,3,1,2,0,2,3,AB37 9JA,-3.310354804,57.318711
+Teaninich,Highlands,1817,Diageo,10200000,2,1,0,2,0,2,2,0,0,0,2,2,IV17 0XB,-4.260287061,57.69168849
+Tobermory,Highlands,1798,Burn Stewart Distillers (Distell International),1000000,1,0,0,0,0,1,1,2,1,1,2,2,PA75 6NR,-6.069530472,56.62080598
+Tomatin,Highlands,1897,Tomatin Distillery Co.,5000000,2,0,0,2,1,2,3,2,1,2,0,1,IV13 7YT,-4.010031385,57.34110141
+Tomintoul,Speyside,1964,Angus Dundee Distillers,3300000,1,0,0,2,1,0,3,2,1,2,1,2,AB37 9AQ,-3.411082873,57.31268009
+Tormore,Speyside,1958,Chivas Brothers Ltd (Pernod Ricard),4600000,1,0,0,0,1,2,2,1,2,1,0,0,PH26 3LR,-3.412995868,57.39710681
+Tullibardine,Highlands,1949,Picard Vins & Spiriteaux,2950000,0,0,1,2,1,2,3,2,1,0,2,1,PH4 1QG,-3.782289533,56.25929564

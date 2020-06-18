@@ -69,25 +69,36 @@ ui <- fluidPage(titlePanel("Guide to YOUR WHISKIES in Scotland"),sidebarLayout(
                         #             max = 3,
                         #             value = 2),
                         
-                        radioButtons("floral",
-                                     "Are floral notes okay?",
-                                     choices = c("Yes", "No")),
-            radioButtons("honey",
-                         "Do you like honey notes?",
-                         choices = c("Yes", "No")),
-                         
-            radioButtons("nutty",
-                         "Do you like nutty notes?",
-                         choices = c("Yes", "No")),
             
-                         radioButtons("medicine",
-                                      "Do you mind medicinal flavours?",
-                                      choices = c("Yes", "No")),
+            helpText("Anything you're not keen on?"),
             
-                radioButtons("spicy",
-                                                   "Do you like a bit of spiciness in your whisky?",
-                                                   choices = c("Yes", "No")
-            )
+            checkboxInput("floral", "floral", value = FALSE),
+            checkboxInput("honey", "honey", value = FALSE),
+            checkboxInput("nutty", "nutty", value = FALSE),
+            checkboxInput("medicinal", "medicinal", value = FALSE),
+            checkboxInput("floral", "floral", value = FALSE),
+            checkboxInput("floral", "floral", value = FALSE),
+            checkboxInput("spicy", "spicy", value = FALSE),
+        
+            #             radioButtons("floral",
+            #                          "Are floral notes okay?",
+            #                          choices = c("Yes", "No")),
+            # radioButtons("honey",
+            #              "Do you like honey notes?",
+            #              choices = c("Yes", "No")),
+            #              
+            # radioButtons("nutty",
+            #              "Do you like nutty notes?",
+            #              choices = c("Yes", "No")),
+            # 
+            #              radioButtons("medicine",
+            #                           "Do you mind medicinal flavours?",
+            #                           choices = c("Yes", "No")),
+            # 
+            #     radioButtons("spicy",
+            #                                        "Do you like a bit of spiciness in your whisky?",
+            #                                        choices = c("Yes", "No")
+            # )
             ),
         
         mainPanel(
